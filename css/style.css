@@ -33,4 +33,11 @@ h1{
 button {
     padding: 5px;
     margin-right: 15px;
+    color:dodgerblue;
+}
+
+.ticket_result{
+    background-color: white;
+    width: 80%;
+    margin: auto;
 }
