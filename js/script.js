@@ -7,13 +7,16 @@ generateButton.addEventListener('click', function() {
     //nome passeggero, leggo input generator_name
     var generatorNameElement = document.getElementById('generator_name');
     var userName = generatorNameElement.value;
-    //console.log(userName);
+    console.log(userName);
+
+    //stampare nome
+    document.getElementById('ticket_name').innerHTML = userName;
     
     //offerta, leggo input generator_age, faccio if
     // se maggiorenne, minorenne o over
     var generatorAge = document.getElementById('generator_age');
     var userAge = generatorAge.value;
-    //console.log(userAge);
+    console.log(userAge);
     var userOffer = 'Prezzo standard';
     if ( userAge == 'minorenne') {
         userOffer = 'Sconto minorenne';
@@ -22,9 +25,15 @@ generateButton.addEventListener('click', function() {
     }
     console.log(userOffer);
 
+    //stampare sconto età 
+    document.getElementById('ticket_offer').innerHTML = userOffer;
+
     //carrozza
     //codice
     //prezzo
 
-    //stampare
+    //stampare 
+    //nome
+    document.getElementById('ticket_name').innerHTML = userName;
+    
 });
