@@ -56,6 +56,6 @@ generateButton.addEventListener('click', function() {
     console.log(finalPrice);
 
     //stampare costo biglietto
-    document.getElementById('ticket_price').innerHTML = finalPrice;
+    document.getElementById('ticket_price').innerHTML = finalPrice.toFixed(2);
 
 });
