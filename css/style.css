@@ -26,6 +26,11 @@ h1{
 
 .ticket_generator_section{
     color:dodgerblue;
-    padding: 20px 30px 20px 30px;
+    padding: 30px 30px 20px 30px;
     display: inline-block;
+}
+
+button {
+    padding: 5px;
+    margin-right: 15px;
 }
