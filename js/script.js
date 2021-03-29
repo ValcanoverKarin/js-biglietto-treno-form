@@ -59,3 +59,9 @@ generateButton.addEventListener('click', function() {
     document.getElementById('ticket_price').innerHTML = finalPrice.toFixed(2);
 
 });
+
+// funzionalità del bottone annulla
+var cancelButton = document.getElementById('cancel_button')
+cancelButton.addEventListener('click', function() {
+    
+}
