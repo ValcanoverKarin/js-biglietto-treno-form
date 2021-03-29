@@ -28,13 +28,18 @@ generateButton.addEventListener('click', function() {
     //stampare sconto età 
     document.getElementById('ticket_offer').innerHTML = userOffer;
 
-    //carrozza
+    //carrozza numero random
     var ticketNumber = Math.floor(Math.random() * 10) + 1;
 
     //stampare numero carrozza
     document.getElementById('ticket_number').innerHTML = ticketNumber;
 
-    //codice
+    //codice cp
+    var ticketCp = Math.floor(Math.random() * 100000) + 50000;
+
     //prezzo
+    document.getElementById('ticket_cp').innerHTML = ticketCp;
+
+    //costo biglietto
     
 });
