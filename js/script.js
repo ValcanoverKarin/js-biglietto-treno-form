@@ -29,11 +29,12 @@ generateButton.addEventListener('click', function() {
     document.getElementById('ticket_offer').innerHTML = userOffer;
 
     //carrozza
+    var ticketNumber = Math.floor(Math.random() * 10) + 1;
+
+    //stampare numero carrozza
+    document.getElementById('ticket_number').innerHTML = ticketNumber;
+
     //codice
     //prezzo
-
-    //stampare 
-    //nome
-    document.getElementById('ticket_name').innerHTML = userName;
     
 });
