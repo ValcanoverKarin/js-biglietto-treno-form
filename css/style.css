@@ -4,22 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
 .wrapper{
     background-color: dodgerblue;
     width: 100%;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 150px;
 }
 
 h1{
     color: white;
     text-transform: uppercase;
-    padding: 30px;
+    padding: 25px;
 }
 
 .ticket_generator{
     background-color: white;
-    width: 80%;
+    width: 60%;
     margin: auto;
     border-radius: 10px;
 }
@@ -56,7 +60,7 @@ button:hover {
 
 .ticket_result{
     background-color: white;
-    width: 80%;
+    width: 60%;
     margin: auto;
     padding-bottom: 20px;
 }

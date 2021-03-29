@@ -41,5 +41,21 @@ generateButton.addEventListener('click', function() {
     document.getElementById('ticket_cp').innerHTML = ticketCp;
 
     //costo biglietto
-    
+    var prezzoPerKm = 0.21;
+    var generatoKm = document.getElementById('generator_km');
+    var userKm = parseInt (generatoKm.value);
+    console.log(userKm);
+    //calcolo prezzo
+    var finalPrice = userKm * prezzoPerKm;
+    //console.log(finalPrice);
+    if( userAge == 'minorenne' ) {
+        finalPrice = finalPrice - (finalPrice * 0.2);
+    } else if( userAge == 'over' ) {
+        finalPrice = finalPrice - (finalPrice * 0.4);
+    }
+    console.log(finalPrice);
+
+    //stampare costo biglietto
+    document.getElementById('ticket_price').innerHTML = finalPrice;
+
 });
